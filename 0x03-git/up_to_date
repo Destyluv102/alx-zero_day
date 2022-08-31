@@ -1,1 +1,16 @@
-git clone
+-- git commit -a -m "changes i made on my branch" 
+-- git checkout master
+-- git fetch upstream
+-- git merge update_script/master
+-- git checkout mybranch
+-- git merge master (or rebase)
+-- git push origin mybranch
+
+git checkout my_branch    
+# move on your branch (make sure it exists)
+git fetch origin          
+# fetch all changes
+git pull origin master    
+# pull changes from the origin remote, master branch and merge them into my_branch
+git push origin my_branch 
+# push my_branch
